@@ -1,5 +1,8 @@
 # Environmental Monitoring Station
 
+**YouTube Channel:** https://www.youtube.com/playlist?list=PLrZbkNpNVSwxEoAMTovuAd9RmLn4Sj5hn  
+**GitHub Repository:** https://github.com/HorizonHnk/Environmental-Monitoring-Station.git
+
 ![Environmental Monitoring System](https://via.placeholder.com/800x400?text=Environmental+Monitoring+System)
 
 ## Project Overview
