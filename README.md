@@ -159,10 +159,10 @@ The project was completed in an intensive 2-week development sprint:
 ### Master Unit
 
 - **Microcontroller**: ESP32 Development Board
-- **Air Quality Sensor**: MQ135 (ADC Pin 34)
+- **Air Quality Sensor**: MQ135 (ADC)
 - **Display**: 20x4 LCD via I2C (Address 0x27)
 - **Alert System**: Buzzer on GPIO 19 with three pattern modes
-- **Indicators**: 5 LEDs for air quality levels (GPIOs 26, 27, 13, 12, 14)
+- **Indicators**: 5 LEDs for air quality levels 
 - **Network**: WiFi AP+STA mode with ESP-NOW on channel 6
 - **Web Interface**: Responsive dashboard with real-time updates
 - **Data Logging**: Circular buffer with 1440 data points (24 hours at 1-minute intervals)
@@ -304,20 +304,20 @@ slave/
 ### Hardware Setup
 
 1. **Assemble the master unit:**
-   - Connect MQ135 sensor to ESP32 (ADC pin 34)
+   - Connect MQ135 sensor to ESP32 (ADC)
    - Connect I2C LCD display (SDA to pin 21, SCL to pin 22)
-   - Connect 5 LEDs with 220Ω resistors to pins 26, 27, 13, 12, 14
-   - Connect buzzer to pin 19
+   - Connect 5 LEDs with 220Ω resistors
+   - Connect buzzer
 
 2. **Assemble the slave unit:**
-   - Connect DHT22 sensor to ESP32 (pin 5)
-   - Connect 10 LEDs with 220Ω resistors to pins 15, 2, 4, 25, 26, 13, 14, 33, 32, 27
+   - Connect DHT22 sensor to ESP32
+   - Connect 10 LEDs with 280Ω resistors
 
 ### Software Setup
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/environmental-monitoring-station.git
+   git clone https://github.com/horizonhnk/environmental-monitoring-station.git
    ```
 
 2. Install required libraries in Arduino IDE:
